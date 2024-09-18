@@ -12,16 +12,20 @@ html body {
 	text-align:center;
 }
 header {
-	position:fixed;
+	position:absolute;
 	transition:0.5s;
 	background:#ccc;
 	height:7px;
-	overflow-x:hidden;
-	overflow-y:auto;
-	width:100%
+	overflow:hidden;
+	width:100%;
 	color:#ccc;
 	padding:1px;
-	z-index:50;
+	top: 0;
+}
+header h1 {
+	float: left;
+	width: 30%;
+	font-size: 1.65em;
 }
 header:hover {
 	height:65px;
@@ -30,13 +34,21 @@ header:hover {
 	color:white;
 }
 nav {
+	width: 69%;
+	float: right;
 	display:flex;
 	align-items:center;
-	justify-content:space-between;
+	justify-content:center;
+	text-align: center;
 }
 li {
 	list-style:none;
 	display:inline-block;
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 0.25em;
+	font-size: 1.4em;
+	cursor: pointer;
 }
 </style>
 </head>
