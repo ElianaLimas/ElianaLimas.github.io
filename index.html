@@ -2,14 +2,51 @@
 <html>
 <head>
 <title>Welcome, Charity!</title>
+<style>
+html body {
+	width:100%;
+	height:100%;
+	margin:0;
+	background:#eee;
+	font-family: Courier, "Courier New", monospace;
+	text-align:center;
+}
+header {
+	position:fixed;
+	transition:0.5s;
+	background:#ccc;
+	height:7px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	width:100%
+	color:#ccc;
+	padding:1px;
+	z-index:50;
+}
+header:hover {
+	height:65px;
+	background:gray;
+	padding:7px;
+	color:white;
+}
+nav {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+li {
+	list-style:none;
+	display:inline-block;
+}
+</style>
 </head>
 <body>
 <header>
 <h1>A SIMPLE WEBSITE</h1>
 <nav>
 	<ul>
-		<li>Dummy Text &#9000;</li>
-		<li>Dummy Text &#119139; </li>
+		<li>Dummy Text </li>
+		<li>Dummy Text </li>
 		<li>Dummy Text</li>
 	</ul>
 </nav>
